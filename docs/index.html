@@ -2,11 +2,11 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <title>MUFEG - Festa del Grano</title>
+  <title>MUFEG – Festa del Grano</title>
   <style>
     body {
       margin: 0;
-      background: url('assets/Festa-del-Grano.png') no-repeat center center fixed;
+      background: url('Festa%20del%20Grano%20a%20Jelsi.png') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Georgia', serif;
       color: white;
@@ -16,10 +16,12 @@
       flex-direction: column;
       justify-content: center;
     }
+
     h1 {
       font-size: 2.5rem;
       margin: 0.5em 0;
     }
+
     button {
       margin-top: 2em;
       font-size: 1.2rem;
@@ -27,13 +29,19 @@
       background-color: #f5f5f5;
       color: #333;
       border: none;
-      border-radius: 8px;
+      border-radius: 5px;
       cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ddd;
     }
   </style>
 </head>
 <body>
-  <h1>Scopri la tradizione e l’arte della Festa del Grano di Jelsi</h1>
-  <button onclick="window.location.href='museo.html'">Esplora il Museo</button>
+  <h1>MUFEG – Festa del Grano</h1>
+  <a href="museo.html">
+    <button>Esplora il Museo</button>
+  </a>
 </body>
 </html>
